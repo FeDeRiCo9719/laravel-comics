@@ -3,8 +3,9 @@ header {
 
     .bluBar {
         height: 30px;
-        background-color: rgb(37, 111, 223);
+        background-color: $mainColor;
         color: white;
+
         .mainContainer {
             height: 100%;
             display: flex;
@@ -22,7 +23,12 @@ header {
         .logoBox {
             height: 50px;
             width: 50px;
-            background-color: rgb(37, 111, 223);
+            border-radius: 50%;
+            background-color: $mainColor;
+        }
+        nav ul {
+            display: flex;
+            gap: 30px;
         }
     }
 }

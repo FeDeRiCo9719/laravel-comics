@@ -23,7 +23,7 @@ header {
 
 header .bluBar {
   height: 30px;
-  background-color: #256fdf;
+  background-color: #2a7cf8;
   color: white;
 }
 
@@ -45,7 +45,13 @@ header .headerBox {
 header .headerBox .logoBox {
   height: 50px;
   width: 50px;
-  background-color: #256fdf;
+  border-radius: 50%;
+  background-color: #2a7cf8;
+}
+
+header .headerBox nav ul {
+  display: flex;
+  gap: 30px;
 }
 
 .heroBg {
