@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.mainContainer li {
+  list-style: none;
+}
+
+.mainContainer a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.336);
+}
+
+header .bluBar {
+  height: 30px;
+  background-color: #256fdf;
+  color: white;
+}
+
+header .bluBar .mainContainer {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+
+header .headerBox {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .headerBox .logoBox {
+  height: 50px;
+  width: 50px;
+  background-color: #256fdf;
+}
+
+.heroBg {
+  height: 350px;
+  width: 100%;
+  background-color: #6e446b;
+}
+
+footer .topFooter {
+  height: 400px;
+  width: 100%;
+  background-color: #0a0a0a;
+}
+
+footer .lowFooter {
+  height: 100px;
+  width: 100%;
+  background-color: #2b2b2b;
+}
+

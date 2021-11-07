@@ -1,0 +1,33 @@
+header {
+    background-color: rgba(255, 255, 255, 0.336);
+
+    .bluBar {
+        height: 30px;
+        background-color: rgb(37, 111, 223);
+        color: white;
+        .mainContainer {
+            height: 100%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+    .headerBox {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logoBox {
+            height: 50px;
+            width: 50px;
+            background-color: rgb(37, 111, 223);
+        }
+    }
+}
+.heroBg {
+    height: 350px;
+    width: 100%;
+    background-color: rgb(110, 68, 107);
+}
