@@ -21,19 +21,26 @@ header {
         align-items: center;
 
         .logoBox {
-            height: 50px;
-            width: 50px;
-            border-radius: 50%;
-            background-color: $mainColor;
+            height: 70px;
+
+            img {
+                height: 100%;
+            }
         }
         nav ul {
             display: flex;
             gap: 30px;
+        }
+        a {
+            color: rgb(75, 75, 75);
+            font-size: 14px;
+            font-weight: 600;
         }
     }
 }
 .heroBg {
     height: 350px;
     width: 100%;
-    background-color: rgb(110, 68, 107);
+    background-image: url("/images/jumbotron.jpg");
+    // background-color: rgb(13, 100, 78);
 }

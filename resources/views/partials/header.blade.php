@@ -10,11 +10,12 @@
     <div class="mainContainer headerBox">
         <!-- logo -->
         <div class="logoBox">
-            <img src="" alt="">
+            <img src="/images/dc-logo.png" alt="logoImg">
         </div>
         <!-- nav -->
         <nav>
             <ul>
+                <!-- class="{{Request::route()->getName() == '' ? 'active' : ''}}" -->
                 <li>
                     <a href="{{route('home')}}">CHARACTERS</a>
                 </li>

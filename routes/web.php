@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('home');
 })->name("home");
 
+Route::get('/cardSerie', function () {
+    return view('cardSerie');
+})->name("serie");
 

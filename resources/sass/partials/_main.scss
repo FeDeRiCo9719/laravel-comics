@@ -1,0 +1,83 @@
+.currentSeries {
+    
+    .bgSeries {
+        background-color: black;
+
+        .mainContainer {
+            background-color: rgba(255, 255, 255, 0.089);
+            color: rgb(80, 46, 46);
+            padding: 50px 0;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+
+            .serieCard {
+                height: 250px;
+                width: 180px;
+                // background-color: rgba(255, 0, 0, 0.151);
+
+                a {
+                    color: white;
+                }
+
+                .boxImgCard {
+                    height: 180px;
+                    background-color: white;
+                    margin-bottom: 20px;
+                    overflow: hidden;
+
+                    a {
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .blueInfoBar {
+        background-color: $mainColor;
+        color: white;
+        height: 150px;
+    }
+}
+
+.serieCard {
+
+    .blueBoxCard {
+        height: 80px;
+        background-color: $mainColor;
+        position: relative;
+
+        .boxImgCard {
+            border: 2px solid white;
+            position: absolute;
+            top: -150px;
+            height: 200px;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .descriptionCard {
+        background-color: white;
+        padding: 50px 0;
+
+        .boxTextCard {
+            width: 50%;
+        }
+    }
+
+    .infoCard {
+        background-color: lightgray;
+        height: 300px;
+        padding: 50px 0;
+    }
+}

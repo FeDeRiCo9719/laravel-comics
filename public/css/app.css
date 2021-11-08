@@ -1,7 +1,23 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;
+
+700&display=swap);* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/*---------------------- GOOGLE fonts ----------------------*/
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+body li {
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
 }
 
 .mainContainer {
@@ -9,12 +25,85 @@
   margin: 0 auto;
 }
 
-.mainContainer li {
-  list-style: none;
+.cardContainer {
+  max-width: 50%;
+  margin: 0 auto;
 }
 
-.mainContainer a {
-  text-decoration: none;
+.currentSeries .bgSeries {
+  background-color: black;
+}
+
+.currentSeries .bgSeries .mainContainer {
+  background-color: rgba(255, 255, 255, 0.089);
+  color: #502e2e;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.currentSeries .bgSeries .mainContainer .serieCard {
+  height: 250px;
+  width: 180px;
+}
+
+.currentSeries .bgSeries .mainContainer .serieCard a {
+  color: white;
+}
+
+.currentSeries .bgSeries .mainContainer .serieCard .boxImgCard {
+  height: 180px;
+  background-color: white;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.currentSeries .bgSeries .mainContainer .serieCard .boxImgCard a {
+  height: 100%;
+}
+
+.currentSeries .bgSeries .mainContainer .serieCard .boxImgCard a img {
+  width: 100%;
+}
+
+.currentSeries .blueInfoBar {
+  background-color: #2a7cf8;
+  color: white;
+  height: 150px;
+}
+
+.serieCard .blueBoxCard {
+  height: 80px;
+  background-color: #2a7cf8;
+  position: relative;
+}
+
+.serieCard .blueBoxCard .boxImgCard {
+  border: 2px solid white;
+  position: absolute;
+  top: -150px;
+  height: 200px;
+}
+
+.serieCard .blueBoxCard .boxImgCard img {
+  height: 100%;
+}
+
+.serieCard .descriptionCard {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.serieCard .descriptionCard .boxTextCard {
+  width: 50%;
+}
+
+.serieCard .infoCard {
+  background-color: lightgray;
+  height: 300px;
+  padding: 50px 0;
 }
 
 header {
@@ -43,10 +132,11 @@ header .headerBox {
 }
 
 header .headerBox .logoBox {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  background-color: #2a7cf8;
+  height: 70px;
+}
+
+header .headerBox .logoBox img {
+  height: 100%;
 }
 
 header .headerBox nav ul {
@@ -54,10 +144,16 @@ header .headerBox nav ul {
   gap: 30px;
 }
 
+header .headerBox a {
+  color: #4b4b4b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .heroBg {
   height: 350px;
   width: 100%;
-  background-color: #6e446b;
+  background-image: url("/images/jumbotron.jpg");
 }
 
 footer .topFooter {
